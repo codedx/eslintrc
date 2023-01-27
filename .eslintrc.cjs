@@ -19,12 +19,6 @@ module.exports = {
         }
     },
 
-    // TODO: remove when linting problems gets fixed
-    ignorePatterns: ["/tests/", "/conf/eslint-all.js"],
-    rules: {
-        "class-methods-use-this": "off"
-    },
-
     overrides: [
         {
             files: ["tests/**/*"],
@@ -33,9 +27,16 @@ module.exports = {
                 "no-restricted-syntax": ["error", {
                     selector: "CallExpression[callee.object.name='assert'][callee.property.name='doesNotThrow']",
                     message: "`assert.doesNotThrow()` should be replaced with a comment next to the code."
+                }],
+
+                // Overcome https://github.com/mysticatea/eslint-plugin-node/issues/250
+                "node/no-unsupported-features/es-syntax": ["error", {
+                    ignores: [
+                        "modules",
+                        "dynamicImport"
+                    ]
                 }]
             }
         }
-
     ]
 };
