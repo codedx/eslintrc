@@ -1,3 +1,72 @@
+# Changelog
+
+## [2.1.3](https://github.com/eslint/eslintrc/compare/v2.1.2...v2.1.3) (2023-11-01)
+
+
+### Documentation
+
+* Add CommonJS example to README ([#134](https://github.com/eslint/eslintrc/issues/134)) ([ad511f8](https://github.com/eslint/eslintrc/commit/ad511f80971301199b74973fef196c8f6ebd36bc)), closes [#133](https://github.com/eslint/eslintrc/issues/133)
+
+
+### Chores
+
+* run tests in Node.js 21 ([#130](https://github.com/eslint/eslintrc/issues/130)) ([3b386f7](https://github.com/eslint/eslintrc/commit/3b386f790119553fb0d800b65454abf89b56a7aa))
+
+## [2.1.2](https://github.com/eslint/eslintrc/compare/v2.1.1...v2.1.2) (2023-08-05)
+
+
+### Bug Fixes
+
+* Ensure environments in overrides respect files patterns ([#126](https://github.com/eslint/eslintrc/issues/126)) ([6745421](https://github.com/eslint/eslintrc/commit/67454216a9dc4ecb850fd80d67ae39cf5799986d)), closes [#125](https://github.com/eslint/eslintrc/issues/125)
+
+
+### Chores
+
+* Remove add-to-triage ([#123](https://github.com/eslint/eslintrc/issues/123)) ([6827766](https://github.com/eslint/eslintrc/commit/6827766123137592b13c16c2ddd241fea42aae10))
+* standardize npm script names ([#122](https://github.com/eslint/eslintrc/issues/122)) ([6cfa046](https://github.com/eslint/eslintrc/commit/6cfa0466c192f5c2aff1cdf9554836acd4fcce68))
+
+## [2.1.1](https://github.com/eslint/eslintrc/compare/v2.1.0...v2.1.1) (2023-07-27)
+
+
+### Chores
+
+* Add PRs to triage ([#121](https://github.com/eslint/eslintrc/issues/121)) ([b3c2d70](https://github.com/eslint/eslintrc/commit/b3c2d70fff4134c6602ad10257776db45281817c))
+* generate provenance statements when release ([#119](https://github.com/eslint/eslintrc/issues/119)) ([584cf79](https://github.com/eslint/eslintrc/commit/584cf79777fbb15147e929c7eeea6f7a56c485b5))
+
+## [2.1.0](https://github.com/eslint/eslintrc/compare/v2.0.3...v2.1.0) (2023-06-30)
+
+
+### Features
+
+* add `es2023` and `es2024` environments ([#116](https://github.com/eslint/eslintrc/issues/116)) ([14ddd36](https://github.com/eslint/eslintrc/commit/14ddd3630843485f8f29f4b0402891a26f9fcf9b))
+
+
+### Chores
+
+* upgrade espree@9.6.0 ([#118](https://github.com/eslint/eslintrc/issues/118)) ([2d346d5](https://github.com/eslint/eslintrc/commit/2d346d5b0d926a9388c5a08adebfd218b1f48253))
+
+## [2.0.3](https://github.com/eslint/eslintrc/compare/v2.0.2...v2.0.3) (2023-05-05)
+
+
+### Chores
+
+* run tests on Node.js v20 ([#108](https://github.com/eslint/eslintrc/issues/108)) ([86282a2](https://github.com/eslint/eslintrc/commit/86282a25a6b4411b3cdd90967956b121f17f04a7))
+* set up release-please ([#111](https://github.com/eslint/eslintrc/issues/111)) ([3965c0b](https://github.com/eslint/eslintrc/commit/3965c0ba9994a0529caa4b17623ca8dae769068c))
+* upgrade espree@9.5.2 ([#113](https://github.com/eslint/eslintrc/issues/113)) ([a17cd0a](https://github.com/eslint/eslintrc/commit/a17cd0af447286f66ecff26d2cd75413d15426fb))
+
+v2.0.2 - March 28, 2023
+
+* [`e5f9e7e`](https://github.com/eslint/eslintrc/commit/e5f9e7e58c955e879527368905e99e6bc2d971f9) chore: upgrade espree@9.5.1 (#106) (Milos Djermanovic)
+
+v2.0.1 - March 10, 2023
+
+* [`5ccb30c`](https://github.com/eslint/eslintrc/commit/5ccb30c229624dd06449570217949a65b9539d21) chore: upgrade espree@9.5.0 (#104) (Milos Djermanovic)
+
+v2.0.0 - February 25, 2023
+
+* [`013bdf3`](https://github.com/eslint/eslintrc/commit/013bdf3da1cd1509592d6df0dfed031608c23a7c) feat!: Require eslint:all and eslint:recommended as parameters. (#103) (Nicholas C. Zakas)
+* [`f7d0f33`](https://github.com/eslint/eslintrc/commit/f7d0f33b30b3839800df046df1f5139941cdbd1a) chore: Add triage action (#101) (Nicholas C. Zakas)
+
 v1.4.1 - December 30, 2022
 
 * [`5be711e`](https://github.com/eslint/eslintrc/commit/5be711e4e81734f79c62cb9781921a9068de1c54) fix: Update FlatCompat docs + typings to reflect Array (#99) (Wes Bos)
@@ -135,4 +204,3 @@ v0.2.0 - October 16, 2020
 v0.1.3 - September 1, 2020
 
 * [`8647a61`](https://github.com/eslint/eslintrc/commit/8647a61991fe121f923d33e96232475209b78210) Fix: version number and eslint-release version (refs #6) (Nicholas C. Zakas)
-
