@@ -1,5 +1,98 @@
 # Changelog
 
+## [3.3.3](https://github.com/eslint/eslintrc/compare/eslintrc-v3.3.2...eslintrc-v3.3.3) (2025-11-28)
+
+
+### Bug Fixes
+
+* release v3.3.3 because publishing v3.3.2 failed ([#211](https://github.com/eslint/eslintrc/issues/211)) ([8aa555a](https://github.com/eslint/eslintrc/commit/8aa555a3f5fcfb7d99249fb57e819a7b6f635496))
+
+## [3.3.2](https://github.com/eslint/eslintrc/compare/eslintrc-v3.3.1...eslintrc-v3.3.2) (2025-11-25)
+
+
+### Bug Fixes
+
+* Remove name property from all and recommended configs ([#200](https://github.com/eslint/eslintrc/issues/200)) ([344da49](https://github.com/eslint/eslintrc/commit/344da491898a2a3595943d4528ba78fe2f238217))
+
+## [3.3.1](https://github.com/eslint/eslintrc/compare/v3.3.0...v3.3.1) (2025-03-11)
+
+
+### Bug Fixes
+
+* correct `types` field in package.json ([#184](https://github.com/eslint/eslintrc/issues/184)) ([2f4cf3f](https://github.com/eslint/eslintrc/commit/2f4cf3fe36ee0df93c1c53f32c030c58db1816a2))
+
+## [3.3.0](https://github.com/eslint/eslintrc/compare/v3.2.0...v3.3.0) (2025-02-21)
+
+
+### Features
+
+* Add types to package ([#179](https://github.com/eslint/eslintrc/issues/179)) ([cb546be](https://github.com/eslint/eslintrc/commit/cb546be8ba53abcb4c64ed2fdd3a729dd1337f61))
+
+## [3.2.0](https://github.com/eslint/eslintrc/compare/v3.1.0...v3.2.0) (2024-11-14)
+
+
+### Features
+
+* merge rule.meta.defaultOptions before validation ([#166](https://github.com/eslint/eslintrc/issues/166)) ([d02f914](https://github.com/eslint/eslintrc/commit/d02f91452b81caff971f7895237cc4fb002e31da))
+
+## [3.1.0](https://github.com/eslint/eslintrc/compare/v3.0.2...v3.1.0) (2024-05-17)
+
+
+### Features
+
+* Expose loadConfigFile() function ([#160](https://github.com/eslint/eslintrc/issues/160)) ([59e890f](https://github.com/eslint/eslintrc/commit/59e890fcd9e03663ac185640d5bed5f1a85bd39b))
+
+
+### Chores
+
+* run tests in Node.js 22 ([#154](https://github.com/eslint/eslintrc/issues/154)) ([5e526f2](https://github.com/eslint/eslintrc/commit/5e526f2e2897b87d7a704391cec74702d4bed38c))
+* update dependency shelljs to ^0.8.5 ([#156](https://github.com/eslint/eslintrc/issues/156)) ([903b887](https://github.com/eslint/eslintrc/commit/903b8875581ee731fd1a9424f83f785359cfb22e))
+
+## [3.0.2](https://github.com/eslint/eslintrc/compare/v3.0.1...v3.0.2) (2024-02-12)
+
+
+### Chores
+
+* maintenance update of `globals` to `v14` ([#152](https://github.com/eslint/eslintrc/issues/152)) ([4151865](https://github.com/eslint/eslintrc/commit/4151865b09084369e89d591eb2e01b9617287982))
+
+## [3.0.1](https://github.com/eslint/eslintrc/compare/v3.0.0...v3.0.1) (2024-02-09)
+
+
+### Documentation
+
+* fix changelog for v3.0.0 ([#144](https://github.com/eslint/eslintrc/issues/144)) ([a613847](https://github.com/eslint/eslintrc/commit/a61384731aff386a8260a80d9710c912e4f62aaa))
+* More explicit about all and recommended configs ([#150](https://github.com/eslint/eslintrc/issues/150)) ([0fabc74](https://github.com/eslint/eslintrc/commit/0fabc7406e5a281a4e72be33de6e3bf8642aa746))
+
+
+### Chores
+
+* upgrade espree@10.0.1 ([#151](https://github.com/eslint/eslintrc/issues/151)) ([8c39944](https://github.com/eslint/eslintrc/commit/8c399441f47009344888e181c6aa2ecdc74ce8ea))
+
+## [3.0.0](https://github.com/eslint/eslintrc/compare/v2.1.4...v3.0.0) (2023-12-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* Require Node.js `^18.18.0 || ^20.9.0 || >=21.1.0` ([#142](https://github.com/eslint/eslintrc/issues/142))
+* Set default `schema: []`, drop support for function-style rules ([#139](https://github.com/eslint/eslintrc/issues/139))
+
+### Features
+
+* Require Node.js `^18.18.0 || ^20.9.0 || >=21.1.0` ([#142](https://github.com/eslint/eslintrc/issues/142)) ([737eb25](https://github.com/eslint/eslintrc/commit/737eb25ac686550020b838ccf6efd5cd2aaa449e))
+* Set default `schema: []`, drop support for function-style rules ([#139](https://github.com/eslint/eslintrc/issues/139)) ([a6c240d](https://github.com/eslint/eslintrc/commit/a6c240de244b0e94ace4a518f2c67876a91f5882))
+
+
+### Chores
+
+* upgrade github actions ([#143](https://github.com/eslint/eslintrc/issues/143)) ([de34faf](https://github.com/eslint/eslintrc/commit/de34fafed28aaf1936845d51309f28484ed29e2f))
+
+## [2.1.4](https://github.com/eslint/eslintrc/compare/v2.1.3...v2.1.4) (2023-11-27)
+
+
+### Bug Fixes
+
+* Use original plugin from disk in FlatCompat ([#137](https://github.com/eslint/eslintrc/issues/137)) ([1c4cf6a](https://github.com/eslint/eslintrc/commit/1c4cf6a71378d480323bfdd404c9585bd0d21d65))
+
 ## [2.1.3](https://github.com/eslint/eslintrc/compare/v2.1.2...v2.1.3) (2023-11-01)
 
 
